@@ -9,7 +9,7 @@ TILE_SIZE = 33
 FIELD_SIZE = FIELD_W, FIELD_H = 10, 20
 FIELD_RES = FIELD_W * TILE_SIZE, FIELD_H * TILE_SIZE
 
-INIT_POS_OFFSET = vec(FIELD_SIZE) // 2
+INIT_POS_OFFSET = vec(FIELD_W // 2 - 1, 0)
 MOVE_DIRECTIONS = {'left': vec(-1,0), 'right': vec(1,0), 'down': vec(0,1)} 
 
 TETROMINOES = {
