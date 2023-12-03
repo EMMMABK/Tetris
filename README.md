@@ -1,6 +1,3 @@
-Certainly! Here's a `README.md` for your Tetris project:
-
-```markdown
 # Tetris Game
 
 This is a classic Tetris game implemented in Python using the Pygame library. The game offers a traditional Tetris experience with falling tetrominoes that you can control to complete lines and score points.
