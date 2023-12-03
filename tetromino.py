@@ -11,7 +11,12 @@ class Block(pg.sprite.Sprite):
         self.image.fill('orange')
 
         self.rect = self.image.get_rect()
+
+    def set_rect_pos(self):
         self.rect.topleft = self.pos * TILE_SIZE
+    
+    def update(self):
+        self.set_rect_pos()
 
 class Tetromino():
     def __init__(self, tetris):
@@ -19,5 +24,10 @@ class Tetromino():
         self.shape = random.choice(list(TETROMINOES.keys()))
         self.blocks = [Block(self, pos) for pos in TETROMINOES[self.shape]]
 
+    def move(self, direction):
+        move_direction = MOVE_DIRECTIONS[direction]
+        for block in self.blocks:
+            block.pos += move_direction
+
     def update(self):
-        pass
+        self.move(direction='down')
