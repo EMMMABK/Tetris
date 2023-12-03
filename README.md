@@ -1,36 +1,3 @@
-# Tetris Game
-
-This is a classic Tetris game implemented in Python using the Pygame library. The game offers a traditional Tetris experience with falling tetrominoes that you can control to complete lines and score points.
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.x
-- Pygame library
-
-### Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/your-username/tetris-game.git
-    ```
-
-2. Install the required dependencies:
-
-    ```bash
-    pip install pygame
-    ```
-
-### Running the Game
-
-Navigate to the project directory and run the following command:
-
-```bash
-python main.py
-```
-
 Certainly! Here's a `README.md` for your Tetris project:
 
 ```markdown
@@ -94,13 +61,6 @@ The project contains the following main files:
   - Modify the `TETROMINOES` dictionary in `settings.py` to create different shapes for tetrominoes.
 - **Adjusting Game Settings:**
   - Explore `settings.py` to tweak game-related constants, such as speed, colors, and screen dimensions.
-
-## Contributors
-
-- **Developer:** In Profile
-- **Email:** In Profile
-
-Feel free to contribute by forking the project and submitting pull requests.
 
 ## Acknowledgments
 
