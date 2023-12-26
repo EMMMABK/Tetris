@@ -1,15 +1,16 @@
-# Tetris Game
+![tetris](https://i.ibb.co/TY6ZcBZ/Colorful-Playful-Gaming-Phone-Wallpaper.png)
+# Tetris Game 🕹️
 
 This is a classic Tetris game implemented in Python using the Pygame library. The game offers a traditional Tetris experience with falling tetrominoes that you can control to complete lines and score points.
 
-## Getting Started
+## Getting Started 🚀
 
 ### Prerequisites
 
 - Python 3.x
 - Pygame library
 
-### Installation
+### Installation 🛠️
 
 1. Clone the repository:
 
@@ -23,7 +24,7 @@ This is a classic Tetris game implemented in Python using the Pygame library. Th
     pip install pygame
     ```
 
-### Running the Game
+### Running the Game ▶️
 
 Navigate to the project directory and run the following command:
 
@@ -31,7 +32,7 @@ Navigate to the project directory and run the following command:
 python main.py
 ```
 
-## Gameplay
+## Gameplay 🎮
 
 - **Controls:**
   - Use the `left` and `right` arrow keys to move the falling tetromino sideways.
@@ -43,7 +44,7 @@ python main.py
   - Fill complete lines horizontally to make them disappear and earn points.
   - Avoid reaching the top of the screen; the game ends if the tetrominoes stack up to the top.
 
-## Code Structure
+## Code Structure 🧱
 
 The project contains the following main files:
 
@@ -52,18 +53,15 @@ The project contains the following main files:
 - `tetris.py`: Manages the Tetris game mechanics and rendering.
 - `tetromino.py`: Defines the tetromino blocks and their behavior.
 
-## Customization
+## Customization 🎨
 
 - **Changing Tetromino Shapes:**
   - Modify the `TETROMINOES` dictionary in `settings.py` to create different shapes for tetrominoes.
 - **Adjusting Game Settings:**
   - Explore `settings.py` to tweak game-related constants, such as speed, colors, and screen dimensions.
 
-## Acknowledgments
+## Acknowledgments 🙌
 
 Special thanks to the Pygame community and the creators of Tetris for the inspiration.
 
-Happy gaming!
-```
-
-Remember to fill in the necessary details, such as your GitHub username, email, and any additional contributors or acknowledgments. This `README.md` provides an overview of the project, installation instructions, gameplay details, code structure, customization options, and acknowledgments. Adjust it as needed to best represent your Tetris game!
+Happy gaming! 🌟
