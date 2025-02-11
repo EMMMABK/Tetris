@@ -1,4 +1,3 @@
-![tetris](https://i.ibb.co/TY6ZcBZ/Colorful-Playful-Gaming-Phone-Wallpaper.png)
 # Tetris Game 🕹️
 
 This is a classic Tetris game implemented in Python using the Pygame library. The game offers a traditional Tetris experience with falling tetrominoes that you can control to complete lines and score points.
@@ -43,6 +42,10 @@ python main.py
 - **Aim:**
   - Fill complete lines horizontally to make them disappear and earn points.
   - Avoid reaching the top of the screen; the game ends if the tetrominoes stack up to the top.
+
+## Screenshot
+
+![tetris](./screen/tetris.png)
 
 ## Code Structure 🧱
 
